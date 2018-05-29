@@ -1,7 +1,16 @@
-
+<script type="text/javascript" src="/javascripts/jquery-3.2.1.min.js"></script>
 <script type="text/javascript" src="/javascripts/particles.js"></script>
 <script type="text/javascript">
-	particlesJS.load('particles-js','/javascripts/<%= jsonName %>', ()=>{
-		console.log('particles json loaded successfuly');
-	});
+particlesJS.load('particles-js','/javascripts/<%= jsonName %>', ()=>{
+console.log('particles json loaded successfuly');
+});
+</script>
+<script>
+	const colors = ["#FF0000","#FF4500","#FFD700","#FFFF00","#008000",
+    "#00FF00","#00FFFF","#00CED1","#1E90FF","#0000FF",
+    "#000080","#4B0082","#8A2BE2","#8B008B","#BA55D3",
+    "#800080","#FF1493","#F4A460","#D2691E","#3CB371"];
+    const len = colors.length;
+    const randomNumber = Math.floor(Math.random() * len);
+    $('#bubbles').css('--nav-color', colors[randomNumber]);
 </script>

@@ -7,6 +7,13 @@ app.set('view engine', 'ejs');
 
 app.get('/', (req, res)=>{
 	res.render('main', {
+		title: 'main',
+		jsonName: 'main.json'
+	});
+});
+
+app.get('/lines', (req, res)=>{
+	res.render('lines', {
 		title: 'lines linked',
 		jsonName: 'lines_bubbles.json'
 	});	
