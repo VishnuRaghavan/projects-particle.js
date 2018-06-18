@@ -21,7 +21,7 @@ dependencies include express.js and ejs
 
 ## Authors
 
-* **Vishnu Raghavan** - [CANYCLUB] https://github.com/VishnuRaghavan
+* **Vishnu Raghavan** - [CANDYCLUB] https://github.com/VishnuRaghavan
 
 ## License
 
